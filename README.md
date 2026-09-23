@@ -1,6 +1,6 @@
 # PoliMillionaire — RAG Question-Answering Agent
 
-**A Natural Language Processing course project at Politecnico di Milano.** We designed and benchmarked category-specific LLM agents for a *Who Wants to Be a Millionaire?* style quiz. The system combines domain knowledge retrieval (FAISS, BM25, and Reciprocal Rank Fusion), web search, mathematical tools, and speech recognition to answer multiple-choice questions under a time limit.
+**Project for the Natural Language Processing course (088946) at Politecnico di Milano.** We designed and benchmarked category-specific LLM agents for a *Who Wants to Be a Millionaire?* style quiz. The system combines domain knowledge retrieval (FAISS, BM25, and Reciprocal Rank Fusion), web search, mathematical tools, and speech recognition to answer multiple-choice questions under a time limit.
 
 The [final notebook](NLPDef.ipynb) contains the implementation, experimental setup, plots, and discussion. This repository keeps the notebook and the most useful supporting artifacts in one place; the large datasets, vector indexes, and full run logs are linked or summarized separately.
 
