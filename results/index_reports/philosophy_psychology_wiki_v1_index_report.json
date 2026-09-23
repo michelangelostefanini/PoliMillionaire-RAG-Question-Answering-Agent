@@ -1,0 +1,56 @@
+{
+  "created_at_utc": "2026-05-26T16:55:43.159195+00:00",
+  "input_dataset_dir": "/content/drive/MyDrive/NLP/Datasets/philosophy_psychology_wiki_v1",
+  "output_index_dir": "/content/drive/MyDrive/NLP/Indexes/philosophy_psychology_wiki_v1",
+  "article_rows": 2046,
+  "chunks": 19247,
+  "chunk_size": 512,
+  "chunk_overlap": 128,
+  "embedding_model": "hf.co/unsloth/embeddinggemma-300m-GGUF:BF16",
+  "metadata_cols": [
+    "doc_id",
+    "title",
+    "url",
+    "qid",
+    "source_dataset",
+    "source_type",
+    "license",
+    "subject",
+    "topic",
+    "page_type",
+    "taxonomy_source",
+    "taxonomy_confidence",
+    "wikidata_label",
+    "wikidata_description",
+    "wikipedia_url",
+    "source_channels",
+    "source_queries",
+    "category_paths",
+    "selection_score",
+    "token_count",
+    "revdate",
+    "chunk_id",
+    "chunk_index"
+  ],
+  "subject_counts": {
+    "core_philosophy": 593,
+    "political_social_thought": 443,
+    "psychology_psyche": 391,
+    "gender_identity_critical_theory": 227,
+    "economic_ideologies": 213,
+    "ethics_society_csr": 179
+  },
+  "page_type_counts": {
+    "thinker": 554,
+    "concept": 528,
+    "theory": 366,
+    "ideology": 363,
+    "applied_ethics": 175,
+    "article": 52,
+    "school_or_tradition": 8
+  },
+  "index_files": [
+    "index.faiss",
+    "index.pkl"
+  ]
+}

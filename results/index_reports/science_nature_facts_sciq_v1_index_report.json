@@ -1,0 +1,38 @@
+{
+  "created_at_utc": "2026-05-20T18:55:50.918101+00:00",
+  "mode": "full_sciq_facts_index",
+  "input_dataset_dir": "/content/drive/MyDrive/NLP/Datasets/science_nature_facts_sciq_v1",
+  "output_index_dir": "/content/drive/MyDrive/NLP/Indexes/science_nature_facts_sciq_v1",
+  "embedding_model": "hf.co/unsloth/embeddinggemma-300m-GGUF:BF16",
+  "embedding_base_url": "http://localhost:11434/v1/",
+  "batch_size": 64,
+  "rows_indexed": 12234,
+  "documents_indexed": 12234,
+  "metadata_cols": [
+    "doc_id",
+    "source_dataset",
+    "source_split",
+    "source_type",
+    "license",
+    "subject",
+    "topic",
+    "taxonomy_source",
+    "taxonomy_confidence",
+    "support_hash",
+    "taxonomy_hits"
+  ],
+  "subject_counts": {
+    "biology": 4337,
+    "physics": 2617,
+    "chemistry": 2419,
+    "general_science": 1024,
+    "earth_science": 825,
+    "ecology": 587,
+    "astronomy": 267,
+    "scientific_method": 158
+  },
+  "index_files": [
+    "index.faiss",
+    "index.pkl"
+  ]
+}

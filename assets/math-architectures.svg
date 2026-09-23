@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1140 522" role="img" aria-labelledby="title desc">
+<title id="title">Math agent architectures: mean correct answers per game</title>
+<desc id="desc">Seven selected runs comparing Qwen 3.5 4B and Nemotron 3 Nano 4B with different tools and routing strategies.</desc>
+<rect width="1140" height="522" fill="#ffffff"/>
+<text x="30" y="43" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#17243b">Math agent architectures</text>
+<text x="30" y="69" font-family="Arial, sans-serif" font-size="15" fill="#536176">Mean correct answers per game · selected experiment runs</text>
+<line x1="405.0" y1="103" x2="405.0" y2="447" stroke="#e3e8ee"/>
+<text x="405.0" y="470" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#64748b">0</text>
+<line x1="497.5" y1="103" x2="497.5" y2="447" stroke="#e3e8ee"/>
+<text x="497.5" y="470" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#64748b">1</text>
+<line x1="590.0" y1="103" x2="590.0" y2="447" stroke="#e3e8ee"/>
+<text x="590.0" y="470" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#64748b">2</text>
+<line x1="682.5" y1="103" x2="682.5" y2="447" stroke="#e3e8ee"/>
+<text x="682.5" y="470" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#64748b">3</text>
+<line x1="775.0" y1="103" x2="775.0" y2="447" stroke="#e3e8ee"/>
+<text x="775.0" y="470" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#64748b">4</text>
+<line x1="867.5" y1="103" x2="867.5" y2="447" stroke="#e3e8ee"/>
+<text x="867.5" y="470" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#64748b">5</text>
+<line x1="960.0" y1="103" x2="960.0" y2="447" stroke="#e3e8ee"/>
+<text x="960.0" y="470" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#64748b">6</text>
+<text x="30" y="137" font-family="Arial, sans-serif" font-size="14" fill="#26374d">Qwen 3.5 4B · baseline</text>
+<rect x="405" y="113" width="320.7" height="33" rx="4" fill="#3567a6"/>
+<text x="735.7" y="136" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#26374d">3.47  <tspan font-weight="400" fill="#64748b">(n=15)</tspan></text>
+<text x="30" y="188" font-family="Arial, sans-serif" font-size="14" fill="#26374d">Qwen 3.5 4B · Python</text>
+<rect x="405" y="164" width="286.8" height="33" rx="4" fill="#3567a6"/>
+<text x="701.8" y="187" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#26374d">3.10  <tspan font-weight="400" fill="#64748b">(n=30)</tspan></text>
+<text x="30" y="239" font-family="Arial, sans-serif" font-size="14" fill="#26374d">Qwen 3.5 4B · calculator</text>
+<rect x="405" y="215" width="422.4" height="33" rx="4" fill="#3567a6"/>
+<text x="837.4" y="238" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#26374d">4.57  <tspan font-weight="400" fill="#64748b">(n=30)</tspan></text>
+<text x="30" y="290" font-family="Arial, sans-serif" font-size="14" fill="#26374d">Qwen 3.5 4B · routing + calculator</text>
+<rect x="405" y="266" width="360.8" height="33" rx="4" fill="#3567a6"/>
+<text x="775.8" y="289" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#26374d">3.90  <tspan font-weight="400" fill="#64748b">(n=30)</tspan></text>
+<text x="30" y="341" font-family="Arial, sans-serif" font-size="14" fill="#26374d">Qwen 3.5 4B · answer + verify</text>
+<rect x="405" y="317" width="271.9" height="33" rx="4" fill="#3567a6"/>
+<text x="686.9" y="340" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#26374d">2.94  <tspan font-weight="400" fill="#64748b">(n=33)</tspan></text>
+<text x="30" y="392" font-family="Arial, sans-serif" font-size="14" fill="#26374d">Nemotron 3 Nano 4B · baseline</text>
+<rect x="405" y="368" width="215.8" height="33" rx="4" fill="#c46845"/>
+<text x="630.8" y="391" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#26374d">2.33  <tspan font-weight="400" fill="#64748b">(n=30)</tspan></text>
+<text x="30" y="443" font-family="Arial, sans-serif" font-size="14" fill="#26374d">Nemotron 3 Nano 4B · routing + calculator</text>
+<rect x="405" y="419" width="508.8" height="33" rx="4" fill="#c46845"/>
+<text x="923.8" y="442" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#26374d">5.50  <tspan font-weight="400" fill="#64748b">(n=30)</tspan></text>
+<text x="30" y="504" font-family="Arial, sans-serif" font-size="12" fill="#64748b">Descriptive comparison; run conditions and sample sizes differ. Source: project experiment logs.</text>
+</svg>

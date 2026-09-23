@@ -1,0 +1,45 @@
+{
+  "created_at_utc": "2026-05-21T09:57:29.017204+00:00",
+  "input_dataset_dir": "/content/drive/MyDrive/NLP/Datasets/science_nature_wiki_v1",
+  "output_index_dir": "/content/drive/MyDrive/NLP/Indexes/science_nature_wiki_v1",
+  "article_rows": 1304,
+  "chunks": 13994,
+  "chunk_size": 512,
+  "chunk_overlap": 128,
+  "embedding_model": "hf.co/unsloth/embeddinggemma-300m-GGUF:BF16",
+  "metadata_cols": [
+    "doc_id",
+    "title",
+    "url",
+    "qid",
+    "source_dataset",
+    "source_type",
+    "license",
+    "subject",
+    "topic",
+    "taxonomy_source",
+    "taxonomy_confidence",
+    "wikidata_label",
+    "wikidata_description",
+    "wikipedia_url",
+    "sitelinks",
+    "token_count",
+    "revdate",
+    "chunk_id",
+    "chunk_index"
+  ],
+  "subject_counts": {
+    "biology": 521,
+    "physics": 329,
+    "chemistry": 260,
+    "astronomy": 108,
+    "ecology": 40,
+    "earth_science": 21,
+    "scientific_method": 13,
+    "general_science": 12
+  },
+  "index_files": [
+    "index.faiss",
+    "index.pkl"
+  ]
+}
